@@ -1,5 +1,5 @@
-CREATE DATABASE PREC01;
-USE PREC01;
+CREATE DATABASE AMRT12;
+USE AMRT12;
 
 CREATE TABLE student (
   stud_id INT(11) PRIMARY KEY AUTO_INCREMENT,
@@ -11,7 +11,7 @@ CREATE TABLE student (
 
 INSERT INTO student (stud_username, stud_password, college_code)
 VALUES
-  ('user1', 'pass1', 'PREC01'),
-  ('user2', 'pass2', 'PREC01'),
-  ('user3', 'pass3', 'PREC01');
+  ('Auser1', 'pass1', 'AMRT12'),
+  ('Auser2', 'pass2', 'AMRT12'),
+  ('Auser3', 'pass3', 'AMRT12');
    

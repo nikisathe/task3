@@ -1,5 +1,5 @@
-CREATE DATABASE PREC01;
-USE PREC01;
+CREATE DATABASE pvp45;
+USE pvp45;
 
 CREATE TABLE student (
   stud_id INT(11) PRIMARY KEY AUTO_INCREMENT,
@@ -11,7 +11,7 @@ CREATE TABLE student (
 
 INSERT INTO student (stud_username, stud_password, college_code)
 VALUES
-  ('user1', 'pass1', 'PREC01'),
-  ('user2', 'pass2', 'PREC01'),
-  ('user3', 'pass3', 'PREC01');
+  ('puser1', 'pass1', 'pvp45'),
+  ('puser2', 'pass2', 'pvp45'),
+  ('puser3', 'pass3', 'pvp45');
    
